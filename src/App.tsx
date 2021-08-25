@@ -6,6 +6,7 @@ import Layout from "./components/Layout";
 import Header from "./components/Header";
 import About from "./components/About";
 import Loader from "./components/Loader";
+import Footer from "./components/Footer";
 
 const App = () => {
     const [isLoading, setIsLoading] = useState<boolean>(true);
@@ -27,6 +28,7 @@ const App = () => {
                             <Header />
                             <About />
                         </Layout>
+                        <Footer />
                     </div>
                 )}
             </AnimatePresence>
