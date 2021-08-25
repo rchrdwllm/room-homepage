@@ -162,7 +162,7 @@ const Header = () => {
             inView >= 2 ? setInView(0) : setInView(inView + 1);
         };
 
-        const timer = setInterval(changeInView, 10000);
+        const timer = setInterval(changeInView, 15000);
 
         return () => clearInterval(timer);
     }, [inView]);
